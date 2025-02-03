@@ -3,10 +3,127 @@
 <head>
   <title>Apni Dunian | Home</title>
   <link rel="stylesheet" href="style/style.css">
+  <link rel="icon" type="image/ico" href="/img/favicon.ico">
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'>
+
+  </script>
 </head>
 <body>
   <header>
-    <h1>Apni Dunian</h1>
+    <div class="banner"></div>
+    <!-- <h1>Apni Dunian</h1> -->
   </header>
+  <nav>
+    <a href="#" class="menu-btn">Home</a>
+    <a href="#" class="menu-btn">College Reviews</a>
+    <a href="#" class="menu-btn">Courses</a>
+    <a href="#" class="menu-btn">Study Materials</a>
+    <a href="#" class="flex-align-right menu-btn">Login/Signup</a>
+  </nav>
+  <main>
+    <section>
+      <h2><span>Courses</span></h2>
+      <!-- Flickity HTML init -->
+      <div class="carousel" data-flickity='{ "wrapAround": true }'>
+        <div class="carousel-cell">
+          <video src="video/electrochemistry.mp4" poster="img/poster.jpg" controls></video>
+        </div>
+        <div class="carousel-cell">
+          <video src="video/electrochemistry.mp4" poster="img/poster1.jpg" controls></video>
+        </div>
+        <div class="carousel-cell">
+          <video src="video/electrochemistry.mp4" poster="img/poster2.jpg" controls></video>
+        </div>
+        <div class="carousel-cell">
+          <video src="video/electrochemistry.mp4" poster="img/poster3.jpg" controls></video>
+        </div>
+        <div class="carousel-cell">
+          <video src="video/electrochemistry.mp4" poster="img/poster4.jpg" controls></video>
+        </div>
+        <div class="carousel-cell">
+          <video src="video/electrochemistry.mp4" poster="img/poster5.jpg" controls></video>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2><span>College Reviews</span></h2>
+      <!-- Flickity HTML init -->
+      <div class="carousel" data-flickity='{ "wrapAround": true }'>
+        <div class="carousel-cell iframe-container">
+          <iframe src="https://www.wikipedia.org/" frameborder="0"></iframe>
+        </div>
+        <div class="carousel-cell iframe-container">
+          <iframe
+            src="https://crcdn09.adnxs-simple.com/creative20/p/280/2024/9/20/61307817/df520751-e48b-4596-a2fe-33da444e4b46_960_540_1177k.mp4"
+            frameborder="0"></iframe>
+        </div>
+        <div class="carousel-cell iframe-container">
+          <iframe src="https://e.jang.com.pk" frameborder="0"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2><span>Study Materials</span></h2>
+      <!-- Flickity HTML init -->
+      <div class="carousel " data-flickity='{ "wrapAround": true }'>
+        <div class="carousel-cell">pdf 1
+          <a target="_blank" href="notes/document.pdf"><img class="img-responsive" src="notes/document.png"></a>
+        </div>
+        <div class="carousel-cell"> pdf 2
+          <a target="_blank" href="notes/document1.pdf"><img class="img-responsive" src="notes/document.png"></a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2><span>Our Founder</span></h2>
+      
+      <!-- <div class="carousel" data-flickity='{ "wrapAround": true }'>
+        <div class="carousel-cell">
+      
+        </div>
+        <div class="carousel-cell">
+      
+        </div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+        <div class="carousel-cell"></div>
+      </div> -->
+
+      <img class="profile-img" src="img/founder.png" alt="This is a founder.">
+      <h3 class="profile-name">Syed Hamza Zahid</h3>
+      <div class="sm-handle">
+        <a href="https://youtube.com" rel="noopner norefrrer" target="_blank" class="yt-handle"><i class="fa fa-youtube fa-lg yt-handle" ></i> Youtube</a>&nbsp;|&nbsp;
+        <a href="https://linkedin.com" rel="noopner norefrrer" target="_blank" class="linkedin-handle"><i class="fa fa-linkedin fa-lg linkedin-handle" ></i> Linkedin</a>&nbsp;|&nbsp;
+        <a href="https://instagram.com" rel="noopner norefrrer" target="_blank" class="insta-handle"><i class="fa fa-instagram fa-lg insta-handle" ></i> Instagram</a>
+      </div>
+      
+      <div class="about-us">
+        <h4 class="about-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit at modi sint tempore tempora praesentium deleniti
+          tenetur asperiores nulla dolores!</h4>
+        <h5 class="about-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos fugit quae reprehenderit, praesentium atque
+          vero cupiditate fuga! Fugiat nobis velit totam praesentium optio! Officia voluptatem voluptatibus fuga! Minima,
+          dignissimos provident. In suscipit illo fugit rem sequi exercitationem incidunt assumenda blanditiis! Neque facilis
+          esse, vitae soluta recusandae quisquam veniam eaque dolores illo sint enim nostrum cum tempore beatae pariatur
+          molestias vero?</h5>
+      </div>
+      
+    </section>
+  </main>
+  <footer>
+    <a href="#">FAQ</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Terms of Use</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Refund Policy</a>
+    <a href="#" class="flex-align-right">&copy; 2025 | Apni Dunian</a>
+  </footer>
+  <!-- JavaScript -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
